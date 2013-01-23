@@ -223,9 +223,11 @@ let g:space_disable_select_mode=1
 let g:space_no_search = 1
 
 " Solarized {{{2
-let g:solarized_menu=0
+"let g:solarized_menu=0
+set t_Co=256
 set background=dark
-silent! colorscheme grb256
+colorscheme xoria256
+"silent! colorscheme grb256
 if exists('*togglebg#map')
   call togglebg#map("<F5>")
 endif
@@ -237,3 +239,5 @@ let g:vimwiki_menu=''
 " Ctlr-P {{{2
 let g:ctrlp_jump_to_buffer = 0
 let g:ctrlp_working_path_mode = 0
+
+
