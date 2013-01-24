@@ -62,10 +62,12 @@ set shiftwidth=4
 set expandtab
 
 " Enable persistent undo {{{2
-set undofile
-set undodir=~/tmp/vim/undo
-if !isdirectory(expand(&undodir))
-    call mkdir(expand(&undodir), "p")
+if version >= 703
+    set undofile
+    set undodir=~/tmp/vim/undo
+    if !isdirectory(expand(&undodir))
+        call mkdir(expand(&undodir), "p")
+    endif
 endif
 " Disable swapfile and backup {{{2
 set nobackup
