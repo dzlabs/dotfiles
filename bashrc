@@ -69,3 +69,4 @@ export PATH=/Users/drew/bin/Sencha/Cmd/3.0.0.188:$PATH
 
 export SENCHA_CMD_3_0_0="/Users/drew/bin/Sencha/Cmd/3.0.0.188"
 export TERM='xterm-256color'
+set -o vi
