@@ -159,3 +159,9 @@
 [submodule "vim/bundle/vim-bundler"]
 	path = vim/bundle/vim-bundler
 	url = https://github.com/tpope/vim-bundler.git
+[submodule "vim/bundle/editorconfig-vim"]
+	path = vim/bundle/editorconfig-vim
+	url = git@github.com:editorconfig/editorconfig-vim.git
+[submodule "vim/bundle/ctrlp-vim"]
+	path = vim/bundle/ctrlp-vim
+	url = git@github.com:kien/ctrlp.vim.git
